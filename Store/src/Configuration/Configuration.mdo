@@ -47,8 +47,9 @@
   <catalogs>Catalog.Справочник1</catalogs>
   <catalogs>Catalog.Справочник2</catalogs>
   <documents>Document.Документ</documents>
-  <documents>Document.Документ1</documents>
   <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПриемНаРаботу</documents>
   <documents>Document.РеализацияТоваров</documents>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
 </mdclass:Configuration>
