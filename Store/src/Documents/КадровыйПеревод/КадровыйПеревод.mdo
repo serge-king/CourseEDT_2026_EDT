@@ -7,13 +7,13 @@
     <listType typeId="a66ae84f-c24b-4859-b22f-7b835cab329d" valueTypeId="1950cea7-4a2a-46e4-8deb-33f29f08f9ed"/>
     <managerType typeId="cebee41e-48cf-4204-99f0-eb64d44dfd72" valueTypeId="5b87d2cd-e582-4312-a40a-3c9d5f10eebe"/>
   </producedTypes>
-  <name>Документ</name>
+  <name>КадровыйПеревод</name>
   <synonym>
     <key>ru</key>
-    <value>Поступление товаров</value>
+    <value>Кадровый перевод</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Документ.StandardAttribute.Number</inputByString>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,9 +23,41 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.Документ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.КадровыйПеревод.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d2e2353f-ff53-444f-8557-4e6ad13e05bc">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38a4d260-27a8-4407-bc16-22526d6d19f7">
+    <name>Порекомендовал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порекомендовал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e2198154-6087-421a-a4a4-36ff7d8b4f09">
     <name>ФормаДокумента</name>
     <synonym>

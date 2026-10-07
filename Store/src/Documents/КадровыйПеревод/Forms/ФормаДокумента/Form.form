@@ -436,7 +436,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.Документ</types>
+      <types>DocumentObject.КадровыйПеревод</types>
     </valueType>
     <view>
       <common>true</common>
