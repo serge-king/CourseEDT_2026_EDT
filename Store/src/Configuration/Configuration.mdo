@@ -46,7 +46,9 @@
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Справочник1</catalogs>
   <catalogs>Catalog.Справочник2</catalogs>
+  <catalogs>Catalog.СправочникВаси</catalogs>
   <catalogs>Catalog.Ящики</catalogs>
+  <documents>Document.ДокументВаси</documents>
   <documents>Document.КадровыйПеревод</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПриемНаРаботу</documents>
